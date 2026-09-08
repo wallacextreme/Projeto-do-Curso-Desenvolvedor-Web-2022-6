@@ -3,7 +3,7 @@
 [![JavaScript](https://img.shields.io/badge/JavaScript-Vanilla_ES6-F7DF1E?style=flat-square&logo=javascript&logoColor=black)](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript)
 [![HTML5](https://img.shields.io/badge/HTML5-Canvas_&_DOM-E34F26?style=flat-square&logo=html5&logoColor=white)](https://developer.mozilla.org/pt-BR/docs/Web/HTML)
 [![CSS3](https://img.shields.io/badge/CSS3-Animations_&_Sprite_Transforms-1572B6?style=flat-square&logo=css3&logoColor=white)](https://developer.mozilla.org/pt-BR/docs/Web/CSS)
-[![License](https://img.shields.io/badge/License-MIT-blue?style=flat-square)](LICENSE)
+[![Status](https://img.shields.io/badge/Status-Portfolio_Project-blue?style=flat-square)](#)
 
 Jogo arcade interativo desenvolvido em **JavaScript Vanilla**, fundamentado em manipulação dinâmica do DOM, loops de tempo com `setInterval`, controle de estados de jogo (menu, gameplay, vitória e game over) e lógica matemática para geração de coordenadas espaciais responsivas à resolução da tela.
 
@@ -11,11 +11,11 @@ Jogo arcade interativo desenvolvido em **JavaScript Vanilla**, fundamentado em m
 
 ## 🎯 Objetivo
 
-Desenvolver um jogo 2D completo sem o uso de engines pesadas ou bibliotecas externas, demonstrando o poder do JavaScript puro para criação de loops de tempo, detecção de cliques, controle de ciclo de vida de entidades na tela e responsividade dinâmica.
+Desenvolver um jogo 2D completo sem o uso de engines pesadas ou bibliotecas externas, demonstrando o uso de JavaScript puro para criação de loops de tempo, detecção de cliques, controle de ciclo de vida de entidades na tela e responsividade dinâmica.
 
 ---
 
-## ✨ Principais Mecânicas & Funcionalidades
+## ✨ Mecânicas & Funcionalidades
 
 - **Loop de Criação Dinâmica**: Geração programática de elementos `<img>` no DOM com tempo de vida limitado por tick do timer.
 - **Cálculo Espacial Responsivo**: Algoritmo que lê as dimensões da janela em tempo real (`innerWidth` / `innerHeight`) e posiciona os alvos garantindo que não ultrapassem as bordas visíveis.
@@ -38,32 +38,10 @@ Desenvolver um jogo 2D completo sem o uso de engines pesadas ou bibliotecas exte
 - **JavaScript Vanilla (ES6)**:
   - Temporizadores assíncronos (`setInterval`, `clearInterval`).
   - Manipulação da API DOM (`createElement`, `appendChild`, `remove`, manipulação de estilos e atributos).
-  - Matemática e pseudo-aleatoriedade com `Math.random()` e `Math.floor()`.
+  - Funções de aleatoriedade com `Math.random()` e `Math.floor()`.
   - Tratamento de eventos de clique (`onclick`).
-- **HTML5**: Estruturação das telas de menu (`index.html`), palco de jogo (`app.html`), tela de vitória (`vitoria.html`) e tela de game over (`fim_de_jogo.html`).
-- **CSS3**: Efeitos visuais, cursores customizados (mata-mosca), background responsivo e classes de transformação para dimensionamento de sprites.
-
----
-
-## 🏗️ Fluxo e Arquitetura do Jogo
-
-```text
-[ index.html (Menu Inicial) ]
-            │
-            ├─ Seleciona Dificuldade (?normal | ?dificil | ?chucknorris)
-            ▼
-[ app.html (Palco do Jogo) ]
-      │
-      ├── Cronômetro (15s) ──── (Tempo acabou?) ───► [ vitoria.html ]
-      │
-      └── Loop de Spawn (posicaoRandomica)
-             │
-             ├── Clique do Jogador ──► Remove Mosquito
-             │
-             └── Tempo Expirou sem Clique ──► Perde Vida
-                                                   │
-                                            (Vidas > 3?) ───► [ fim_de_jogo.html ]
-```
+- **HTML5**: Telas de menu (`index.html`), palco de jogo (`app.html`), vitória (`vitoria.html`) e game over (`fim_de_jogo.html`).
+- **CSS3**: Efeitos visuais, cursores customizados, background responsivo e classes de transformação para dimensionamento de sprites.
 
 ---
 
@@ -91,14 +69,13 @@ Projeto-do-Curso-Desenvolvedor-Web-2022-6/
    ```
 2. Abra o arquivo `index.html` em qualquer navegador web moderno.
 3. Escolha o nível de dificuldade desejado e clique em **Iniciar Jogo**.
-4. Elimine os mosquitos com cliques antes que o tempo de cada um expire!
 
 ---
 
 ## 📌 Status
 
-- **Status**: Concluído / Projeto de Lógica de Jogos e JavaScript DOM.
-- **Competências consolidadas**: Game loops nativos, manipulação precisa do DOM, responsividade dimensional e algoritmos de aleatoriedade.
+- **Maturidade**: Projeto de Portfólio / Lógica de Jogos e DOM.
+- **Competências demonstradas**: Game loops nativos, manipulação precisa do DOM, responsividade dimensional e algoritmos de aleatoriedade.
 
 ---
 
